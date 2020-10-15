@@ -1,0 +1,20 @@
+Primero crear un repositorio GIT para un proyecto
+
+1. Dentro de mi proyecto local (carpeta) iniciar git con el comando
+  git.init
+
+2. Configurar el origen a donde enviaré mi repositorio
+  git remote add origin "https://repositorio_github"
+
+3. Realizar el seguimiento del archivo
+  git add "hello.html"
+  git add .
+
+4. Realizar un commit para indicar que cambio realicé
+  git commit -m "Nuevo archivo hello.html"
+
+5. Enviar el archivo a github
+  git push
+
+6. Si quiero traer la última actualización del repositorio
+  git pull
