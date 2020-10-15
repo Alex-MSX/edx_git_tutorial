@@ -6,6 +6,8 @@ Primero crear un repositorio GIT para un proyecto
 2. Configurar el origen a donde enviaré mi repositorio
   git remote add origin "https://repositorio_github"
 
+  NOTA: Este origen lo puedo modificar en .git/config
+
 3. Realizar el seguimiento del archivo
   git add "hello.html"
   git add .
@@ -14,7 +16,7 @@ Primero crear un repositorio GIT para un proyecto
   git commit -m "Nuevo archivo hello.html"
 
 5. Enviar el archivo a github
-  git push
+  git push origin master
 
 6. Si quiero traer la última actualización del repositorio
   git pull
