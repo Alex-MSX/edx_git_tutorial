@@ -20,3 +20,10 @@ Primero crear un repositorio GIT para un proyecto
 
 6. Si quiero traer la última actualización del repositorio
   git pull origin master
+
+- Para ver el historial de cambios puedo ejecutar
+  git reflog
+
+- Para regresar a una versión anterior puedo ejecutar
+  git reset --hard master/origin -> reinicia al principio de todo
+  git reset --hard "hash commit" -> regresa al commit indicado
