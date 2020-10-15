@@ -19,4 +19,4 @@ Primero crear un repositorio GIT para un proyecto
   git push origin master
 
 6. Si quiero traer la última actualización del repositorio
-  git pull
+  git pull origin master
